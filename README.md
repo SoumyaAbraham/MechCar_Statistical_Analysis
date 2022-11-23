@@ -102,7 +102,8 @@ You can clearly see that Lot 3 has quite a few possible outliers and is the trou
 
 In this phase, we are going to perform t-tests to determine if all the manufacturing lots and each individual lot are statistically different from the (assumed) population mean of 1,500 PSI.
 
-This is what the code looks like:  
+This is what the code looks like: 
+
 ![code3](https://github.com/SoumyaAbraham/MechCar_Statistical_Analysis/blob/main/Screenshots/del3_codes.png)
 
 
@@ -121,6 +122,7 @@ This means the mean of the three manufacturing lots are statistically similar to
 Now let us take a look at the t-tests performed for each manufacturing lot to see if the PSI is statistically different from the population mean of 1,500 PSI.  
 
 The results are:  
+
 ![ttest_each](https://github.com/SoumyaAbraham/MechCar_Statistical_Analysis/blob/main/Screenshots/deliverable3_ttest_each.png)
 
 If we take a look at each on separately:
@@ -133,9 +135,9 @@ p-value = 1 (>0.05)
 mean of x = 1500.2    
 p-value = 0.6072(>0.05)
 
-In these two cases, the p-values are well above 0.05 and therefore, *the Null Hypothesis is not rejected. As seen by the true values of x mean, they are equal to 1,500*
+In these two cases, the p-values are well above 0.05 and therefore, *the Null Hypothesis is not rejected. As seen by the true values of x mean, they are equal to 1,500*.
 
-Now take a look at Lot 3:  
+3. Lot 3:   
 mean of x = 1496.14    
 p-value = 0.04168 (<0.05)  
 
