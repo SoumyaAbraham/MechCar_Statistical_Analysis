@@ -28,7 +28,7 @@ You will notice the following steps:
 	
 3. Run linear regression on mpg, passing dataframe columns as the data parameters.  
 
-4. Run the summary of the linear regression ******* FIND OUT WHYYYYYYYYYY ********
+4. Run the summary() function to find out the p-value and r-squared value of the linear regression. 
 
 This is what the result looks like: 
 
@@ -141,5 +141,30 @@ p-value = 0.04168 (<0.05)
 
 Here, there is enough proof to reject the Null Hypothesis. This means that *the presumed population mean (1,500) and the sample mean (1496.14 in this case) are different.*
 
-### DELIVERABLE 4:
+### Study Design: MechaCar vs Competition
 
+Here is a proposal for a statistical analysis in order to compare the performance between MechaCar and their competition.  
+
+1. Collecting the following data for the past 3 years from similar models across major competition:
+	* Cost of Car- Does the overall cost of the car affect the performance?
+	* Cost of Maintenance- How much does the future maintenance cost affect the customer's decision?
+	* Engine Type (Electric/Hybrid/Gas)
+	* Customer Demographic- How does the age, income, family structure or occupation affect overall performance?
+	
+2. Hypotheses: 
+Once we have determined the key factors that are key, we must propose the Null Hypothesis and the alternative Hypothesis.
+
+	* Null Hypothesis (H~0~): MechaCar's performance is based on each key factor determined.
+	* Alternative Hypothesis (H~a~): MechaCar's performance is NOT based on eachkey factor determined.
+
+3. Statistical Tests:
+
+	A linear regression lm() could help determine which factors are dependent and independent variables. 
+	This is a good starting point to understand how to improve the performance at MechaCar.
+---
+
+You may access the data used for this project here:  
+
+[MechaCar Challenge Code](https://github.com/SoumyaAbraham/MechCar_Statistical_Analysis/blob/main/MechaCarChallenge.R)  
+[MechaCar_mpg.csv](https://github.com/SoumyaAbraham/MechCar_Statistical_Analysis/blob/main/MechaCar_mpg.csv)  
+[Suspension_coil.csv](https://github.com/SoumyaAbraham/MechCar_Statistical_Analysis/blob/main/Suspension_Coil.csv)
