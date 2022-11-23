@@ -154,8 +154,8 @@ Here is a proposal for a statistical analysis in order to compare the performanc
 2. Hypotheses: 
 Once we have determined the key factors that are key, we must propose the Null Hypothesis and the alternative Hypothesis.
 
-	* Null Hypothesis (H~0~): MechaCar's performance is based on each key factor determined.
-	* Alternative Hypothesis (H~a~): MechaCar's performance is NOT based on eachkey factor determined.
+	* Null Hypothesis (H<sub>0</sub>): MechaCar's performance is based on each key factor determined.
+	* Alternative Hypothesis (H<sub>a</sub>): MechaCar's performance is NOT based on eachkey factor determined.
 
 3. Statistical Tests:
 
