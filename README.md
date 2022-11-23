@@ -12,7 +12,9 @@ There are two csvs that we are working with in this project-
 
 Let us take a look at the project in depth:
 
-### DELIVERABLE 1:
+#### DELIVERABLE 1:
+
+### Linear Regression to Predict MPG
 
 For Deliverable 1, we design a linear model that will predict the mpg of the MechaCar prototypes using the variables in [MechaCar_mpg.csv](https://github.com/SoumyaAbraham/MechCar_Statistical_Analysis/blob/main/MechaCar_mpg.csv). 
 
@@ -57,7 +59,9 @@ Once again, let us take a look at the summary statistics we have just calculated
 This means approximately 71% if all mpg predictions are determined by this mode. That is a significantly high amount of predictions.
 Thus, *we can conclude that the model does a decent job of predicting the mpg of the prototypes effectively.*
 
-### DELIVERABLE 2:
+#### DELIVERABLE 2:
+
+### Summary Statistics on Suspension Coils
 
 In this portion of the project, we will be using the [Suspension_Coil.csv](https://github.com/SoumyaAbraham/MechCar_Statistical_Analysis/blob/main/Suspension_Coil.csv) dataset to determine if the manufacturing process is consistent across production lots. 
 
@@ -98,7 +102,9 @@ The following box plot visualizes this difference quite well:
 
 You can clearly see that Lot 3 has quite a few possible outliers and is the troubled lot. 
 
-### DELIVERABLE 3:
+#### DELIVERABLE 3:
+
+### T-Tests on Suspension Coils
 
 In this phase, we are going to perform t-tests to determine if all the manufacturing lots and each individual lot are statistically different from the (assumed) population mean of 1,500 PSI.
 
