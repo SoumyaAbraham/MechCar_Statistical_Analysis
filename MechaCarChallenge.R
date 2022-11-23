@@ -35,18 +35,18 @@ lot_summary<- suspCoil_data %>% group_by(Manufacturing_Lot) %>% summarize (Mean_
                                                                           StdDev_PSI= sd(PSI),
                                                                           Num_Coil=n(), .groups = 'keep')
 
-# DELIVERABLE 3
-
 # box plot for PSI for all lots
 plt1<- ggplot(suspCoil_data, aes(y=PSI))
 plt1 + geom_boxplot()
 
-# Use t.test() to determine if the PSI across all lots is statistically different from population mean of 1,500 PSI
-t.test(suspCoil_data$PSI, mu=1500)
-
 # box plot for PSI for each lot
 plt2<- ggplot(suspCoil_data, aes(x=Manufacturing_Lot, y= PSI))
 plt2 + geom_boxplot()
+
+# DELIVERABLE 3
+
+# Use t.test() to determine if the PSI across all lots is statistically different from population mean of 1,500 PSI
+t.test(suspCoil_data$PSI, mu=1500)
 
 # Use t.test to determine if the PSI for each lot is statistically different from population mean of 1,500 PSI
 lot1<- subset(suspCoil_data, Manufacturing_Lot == 'Lot1')
