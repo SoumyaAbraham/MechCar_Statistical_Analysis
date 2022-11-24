@@ -141,13 +141,13 @@ p-value = 1 (>0.05)
 mean of x = 1500.2    
 p-value = 0.6072(>0.05)
 
-In these two cases, the p-values are well above 0.05 and therefore, *the Null Hypothesis is not rejected. As seen by the true values of x mean, they are equal to 1,500*.
+In these two cases, the p-values are well above 0.05 and therefore, *there is not sufficient evidence to reject the Null Hypothesis.*
 
 3. Lot 3:   
 mean of x = 1496.14    
 p-value = 0.04168 (<0.05)  
 
-Here, there is enough proof to reject the Null Hypothesis. This means that *the presumed population mean (1,500) and the sample mean (1496.14 in this case) are different.*
+Here we reject the Null Hypothesis. This means that *the presumed population mean (1,500) and the sample mean (1496.14 in this case) are different.*
 
 #### DELIVERABLE 4:
 
@@ -157,21 +157,23 @@ Here is a proposal for a statistical analysis in order to compare the performanc
 
 #### 1. Collecting the following data for the past 3 years from similar models across major competition:
 
-* Cost of Car- Does the overall cost of the car affect the performance?
-* Cost of Maintenance- How much does the future maintenance cost affect the customer's decision?
-* Engine Type (Electric/Hybrid/Gas)
-* Customer Demographic- How does the age, income, family structure or occupation affect overall performance?
+* Price of Car  (Dependent)- Does the overall cost of the car affect the performance?
+* Cost of Maintenance (Independent)- How much does the future maintenance cost affect the customer's decision?
+* Engine Type (Electric/Hybrid/Gas) (Independent)
+* Horsepower (Independent)
+* Color of Car (Independent)
 	
 #### 2. Hypotheses:  
-Once we have determined the key factors that are key, we must propose the Null Hypothesis and the alternative Hypothesis.
 
-* Null Hypothesis (H<sub>0</sub>): MechaCar's performance is based on each key factor determined.
-* Alternative Hypothesis (H<sub>a</sub>): MechaCar's performance is NOT based on eachkey factor determined.
+To test if Horsepower (independent variable) is significant in determining the Price of Car (dependent variable), the hypotheses would be as follows:
+
+* Null Hypothesis (H<sub>0</sub>): MechaCar's pricing is *not* dependent on the horsepower.  
+* Alternative Hypothesis (H<sub>a</sub>): MechaCar's pricing is dependent on the horsepower.  
 
 #### 3. Statistical Tests:
 
-A linear regression lm() could help determine which factors are dependent and independent variables. 
-This is a good starting point to understand how to improve the performance at MechaCar.
+The purpose of the two tailed t-test is to check whether a certain independent variable (Horsepower) is significant in determining the dependent variable (Price of Car).  
+This is a good starting point to determine the areas for improvement, to better price MechaCar vehicles.  
 
 ---
 
